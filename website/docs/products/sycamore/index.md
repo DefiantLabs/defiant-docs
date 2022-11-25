@@ -1,7 +1,7 @@
 ---
-id: Sycamore
+id: about
 title:  Sycamore.
-sidebar_label: Sycamore
+sidebar_label: About
 ---
 
 Sycamore Tax

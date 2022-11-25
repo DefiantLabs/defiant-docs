@@ -1,11 +1,8 @@
 ---
-id: Redpoint
+id: about
 title:  Redpoint.
-sidebar_label: Redpoint
+sidebar_label: About
 ---
 
 Redpoint arbitrage service
 
-## API
-
-live now

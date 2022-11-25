@@ -1,11 +1,44 @@
 {
-  	"docs": {
-		"About": [
-			"About/Overview"
-		],
-		"Products" : [
-			"Products/Redpoint",
-			"Products/Sycamore"
-		]
-	}	
+	"docs": [
+			{
+					"type": "doc",
+					"id": "about/index"
+			},
+			{
+				"type": "category",
+				"collapsed": false,
+				"collapsible": true,
+				"label": "Products",
+				"items": [
+					{
+						"type": "category",
+						"collapsed": false,
+						"collapsible": true,
+						"label": "Redpoint",
+						"items": [
+								{
+										"type": "doc",
+										"id": "products/redpoint/about"
+								},
+								{
+									"type": "doc",
+									"id": "products/redpoint/pricing"
+							}
+						]
+					},
+					{
+							"type": "category",
+							"collapsed": false,
+							"collapsible": true,
+							"label": "Sycamore",
+							"items": [
+									{
+											"type": "doc",
+											"id": "products/sycamore/about"
+									}
+							]
+					}
+				]
+		}
+	]
 }

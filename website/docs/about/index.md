@@ -1,8 +1,8 @@
 ---
-id: Overview
+id: index
 slug: /
 title: Defiant Labs.
-sidebar_label: Overview
+sidebar_label: About Us
 ---
 
 ## About Defiant Labs
