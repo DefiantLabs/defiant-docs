@@ -31,7 +31,7 @@ module.exports = {
             logo: {
                 alt: "defiant logo",
                 href: '/',
-                src: 'img/logo.png',
+                src: 'img/logo_small.png',
             },
             copyright: `Copyright © ${new Date().getFullYear()} defiant contributors`,
             links: [],
