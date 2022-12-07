@@ -68,7 +68,13 @@ Next you need to create the injective client, then you will link them
 ```
 rly tx client injective sommelier mainnet-sommelier-injective --client-tp 500h0m0s -d
 ```
+`{"src_chain_id": "injective-1", "src_client_id": "07-tendermint-135", "dst_chain_id": "sommelier-3"}`
 
+## Link
+now you can link the path (2 clients) together.
+```
+rly tx link mainnet-sommelier-injective --client-tp 590s
+```
 
 
 ## Get the client-id
