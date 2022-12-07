@@ -70,8 +70,8 @@ chains:
 a wallet is required to operate a relay
 
 ```
-rly keys restore sommelier default "bip mnemonic"
-rly keys restore injective default "bip mnemonic"
+rly keys restore sommelier default "mnemonic"
+rly keys restore injective default "mnemonic"
 ```
 
 ## Fund the Accounts
