@@ -131,3 +131,7 @@ API response:
   }
 }
 ```
+
+## Supported DEXs
+
+Currently, Redpoint supports Osmosis and Junoswap DEX (REST API backend). Our CLI tool public release supports Osmosis, and we are working on a Junoswap CLI tool.
