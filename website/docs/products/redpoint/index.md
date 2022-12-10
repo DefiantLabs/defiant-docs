@@ -30,10 +30,10 @@ The DEX front end or wallet asks the Redpoint API “How should my user trade 3,
 2. Trade 793.55 OSMO through pools 1,4,3.  
 2a. This results in 796.23 OSMO, a profit of 3 OSMO.  
 
-<figure>
-<img src="img/redpoint-arb-example-1.png" width="400" height="350"> <figcaption><b>One TX</b> with <b>two messages</b>, made possible with Redpoint</figcaption>
-</figure>
+![Example](./img/redpoint-arb-example-1.png)
+<figcaption><b>One TX</b> with <b>two messages</b>, made possible with Redpoint</figcaption>  
 
+&nbsp;  
 There are several ways the trades can be submitted to the chain. 
 
 1. As above, a single TX can be submitted containing two swap messages. This ensures the trader captures the arbitrage.  
