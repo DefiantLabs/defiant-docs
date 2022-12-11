@@ -6,45 +6,13 @@
 			},
 			{
 				"type": "category",
-				"collapsed": false,
-				"collapsible": true,
-				"label": "FAQ",
-				"items": [
-					{
-							"type": "category",
-							"collapsed": false,
-							"collapsible": true,
-							"label": "IBC",
-							"items": [
-									{
-											"type": "doc",
-											"id": "faq/rly/query"
-									},
-									{
-										"type": "doc",
-										"id": "faq/rly/keys"
-									},
-									{
-										"type": "doc",
-										"id": "faq/rly/create"
-									},
-									{
-										"type": "doc",
-										"id": "faq/rly/configure"
-									}
-							]
-					}
-				]
-			},
-			{
-				"type": "category",
 				"collapsed": true,
 				"collapsible": true,
 				"label": "Products",
 				"items": [
 					{
 						"type": "category",
-						"collapsed": false,
+						"collapsed": true,
 						"collapsible": true,
 						"label": "Redpoint",
 						"items": [
@@ -71,6 +39,38 @@
 							]
 					}
 				]
+		},
+		{
+			"type": "category",
+			"collapsed": true,
+			"collapsible": true,
+			"label": "FAQ",
+			"items": [
+				{
+						"type": "category",
+						"collapsed": true,
+						"collapsible": true,
+						"label": "IBC",
+						"items": [
+								{
+										"type": "doc",
+										"id": "faq/rly/query"
+								},
+								{
+									"type": "doc",
+									"id": "faq/rly/keys"
+								},
+								{
+									"type": "doc",
+									"id": "faq/rly/create"
+								},
+								{
+									"type": "doc",
+									"id": "faq/rly/configure"
+								}
+						]
+				}
+			]
 		}
 	]
 }
