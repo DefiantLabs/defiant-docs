@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "caniuse-lite": "^1.0.30001232"
+    "caniuse-lite": "^1.0.30001232",
+    "npm": "^9.2.0"
   }
 }

@@ -27,6 +27,18 @@
 						]
 					},
 					{
+						"type": "category",
+						"collapsed": false,
+						"collapsible": true,
+						"label": "Cosmos Tax Cli",
+						"items": [
+								{
+										"type": "doc",
+										"id": "products/cosmos-tax-cli/about"
+								}
+						]
+					},
+					{
 							"type": "category",
 							"collapsed": false,
 							"collapsible": true,
