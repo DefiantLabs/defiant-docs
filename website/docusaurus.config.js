@@ -53,9 +53,9 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.json'),
                     editUrl: 'https://github.com/DefiantLabs/defiant-docs/edit/main/website',
                 },
-                // theme: {
-                //     customCss: require.resolve('./src/css/custom.css'),
-                // },
+                theme: {
+                    customCss: [require.resolve('./src/css/custom.css')],
+                  },
                 sitemap: {
                     changefreq: 'weekly',
                     priority: 0.5,
