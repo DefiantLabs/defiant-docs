@@ -11,34 +11,6 @@
 				"label": "Products",
 				"items": [
 					{
-						"type": "category",
-						"collapsed": false,
-						"collapsible": true,
-						"label": "Redpoint",
-						"items": [
-								{
-										"type": "doc",
-										"id": "products/redpoint/about"
-								},
-								{
-									"type": "doc",
-									"id": "products/redpoint/pricing"
-							}
-						]
-					},
-					{
-						"type": "category",
-						"collapsed": false,
-						"collapsible": true,
-						"label": "Cosmos Tax Cli",
-						"items": [
-								{
-										"type": "doc",
-										"id": "products/cosmos-tax-cli/about"
-								}
-						]
-					},
-					{
 							"type": "category",
 							"collapsed": false,
 							"collapsible": true,
