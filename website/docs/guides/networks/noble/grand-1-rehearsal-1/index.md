@@ -1,5 +1,5 @@
 ---
-id: grand-1-rehearsal-1
+id: index
 title: grand-1-rehearsal-1
 sidebar_label: grand-1-rehearsal-1
 ---
