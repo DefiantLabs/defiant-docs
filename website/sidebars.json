@@ -6,7 +6,7 @@
 			},
 			{
 				"type": "category",
-				"collapsed": false,
+				"collapsed": true,
 				"collapsible": true,
 				"label": "Products",
 				"items": [
@@ -23,6 +23,26 @@
 							]
 					}
 				]
-		}
+		},
+		{
+			"type": "category",
+			"collapsed": false,
+			"collapsible": true,
+			"label": "Guides",
+			"items": [
+				{
+						"type": "category",
+						"collapsed": false,
+						"collapsible": true,
+						"label": "Networks",
+						"items": [
+								{
+										"type": "doc",
+										"id": "guides/networks/grand-1-rehearsal-1"
+								}
+						]
+				}
+			]
+	}
 	]
 }
