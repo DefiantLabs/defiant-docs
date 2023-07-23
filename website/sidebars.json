@@ -6,27 +6,20 @@
     },
     {
       "type": "category",
-      "collapsed": true,
+      "collapsed": false,
       "collapsible": true,
       "label": "Products",
       "items": [
         {
-          "type": "category",
-          "collapsed": false,
-          "collapsible": true,
-          "label": "Sycamore",
-          "items": [
-            {
-              "type": "doc",
-              "id": "products/sycamore/about"
-            }
-          ]
+          "label": "sycamore",
+          "type": "doc",
+          "id": "products/sycamore"
         }
       ]
     },
     {
       "type": "category",
-      "collapsed": false,
+      "collapsed": true,
       "collapsible": true,
       "label": "Guides",
       "items": [
