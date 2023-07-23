@@ -34,7 +34,7 @@
           "type": "category",
           "collapsed": false,
           "collapsible": true,
-          "label": "Networks",
+          "label": "Chains",
           "items": [
             {
               "type": "category",
@@ -44,7 +44,23 @@
               "items": [
                 {
                   "type": "doc",
-                  "id": "guides/networks/noble/grand-1-rehearsal-1/index"
+                  "id": "guides/chains/noble/requirements"
+                },
+                {
+                  "type": "doc",
+                  "id": "guides/chains/noble/cosmovisor"
+                },
+                {
+                  "type": "category",
+                  "collapsed": true,
+                  "collapsible": true,
+                  "label": "networks",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "guides/chains/noble/networks/noble-1-rehearsal-1"
+                    }
+                  ]
                 }
               ]
             }
