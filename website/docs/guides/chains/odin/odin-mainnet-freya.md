@@ -34,7 +34,7 @@ Here's a table summarizing the binary versions used in odin-mainnet-freya. 🚀
 
 | Block Range  📦                                                    | Version 📔 |
 |------------------------------------------------------------|------------|
-| [changeme](https://www.mintscan.io/osmosis/blocks/1) ➡️ [changeme](https://www.mintscan.io/osmosis/blocks/1)       | `vTBD` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   |
+| [changeme](https://explore.defiantlabs.net/odin/block/1) ➡️ [changeme](https://explore.defiantlabs.net/odin/block/1)       | `coming soon` ➡️ [🔗](https://explore.defiantlabs.net/odin/block/1)   |
 
 
 ---

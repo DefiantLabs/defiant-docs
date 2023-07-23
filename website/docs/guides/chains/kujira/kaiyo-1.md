@@ -34,11 +34,11 @@ Here's a table summarizing the binary versions used in Kaiyo-1. 🚀
 
 | Block Range  📦                                                    | Version 📔 |
 |------------------------------------------------------------|------------|
-| [1](https://finder.kujira.network/kaiyo-1/block/1) ➡️ [1,764,001](https://finder.kujira.network/kaiyo-1/block/1764001)           | `v0.4.0` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   |
-| [1,764,001](https://finder.kujira.network/kaiyo-1/block/1764001) ➡️ [3,495,000](https://finder.kujira.network/kaiyo-1/block/3495000)       | `v0.5.0` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   |
-| [3,495,001](https://finder.kujira.network/kaiyo-1/block/3495001) ➡️ [5,196,234](https://finder.kujira.network/kaiyo-1/block/5196234)       | `v0.6.0` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   | 
-| [5,196,235](https://finder.kujira.network/kaiyo-1/block/5196235) ➡️ [9,226,200](https://finder.kujira.network/kaiyo-1/block/9226200)       | `v0.7.0` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   |
-| [9,226,201](https://finder.kujira.network/kaiyo-1/block/9226201) ➡️ [current](https://finder.kujira.network/kaiyo-1/block/)       | `v0.8.7` ➡️ [🔗](https://en.wikipedia.org/wiki/HTTP_404)   |
+| [1](https://finder.kujira.network/kaiyo-1/block/1) ➡️ [1,764,001](https://finder.kujira.network/kaiyo-1/block/1764001)           | `v0.4.0` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.4.0)   |
+| [1,764,001](https://finder.kujira.network/kaiyo-1/block/1764001) ➡️ [3,495,000](https://finder.kujira.network/kaiyo-1/block/3495000)       | `v0.5.0` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.5.0)   |
+| [3,495,001](https://finder.kujira.network/kaiyo-1/block/3495001) ➡️ [5,196,234](https://finder.kujira.network/kaiyo-1/block/5196234)       | `v0.6.0` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.6.0)   | 
+| [5,196,235](https://finder.kujira.network/kaiyo-1/block/5196235) ➡️ [9,226,200](https://finder.kujira.network/kaiyo-1/block/9226200)       | `v0.7.0` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.7.0)   |
+| [9,226,201](https://finder.kujira.network/kaiyo-1/block/9226201) ➡️ [current](https://finder.kujira.network/kaiyo-1/block/)       | `v0.8.7` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.8.7)   |
 
 ---
 # 🚀 Setup Configuration
