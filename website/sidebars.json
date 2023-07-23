@@ -33,27 +33,35 @@
               "type": "category",
               "collapsed": false,
               "collapsible": true,
-              "label": "Noble",
+              "label": "🛡️ Noble",
               "items": [
                 {
                   "type": "doc",
-                  "id": "guides/chains/noble/requirements"
-                },
+                  "id": "guides/chains/noble/networks/noble-1"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "collapsed": false,
+              "collapsible": true,
+              "label": "🉐 Kujira",
+              "items": [
                 {
                   "type": "doc",
-                  "id": "guides/chains/noble/cosmovisor"
-                },
+                  "id": "guides/chains/kujira/networks/kaiyo-1"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "collapsed": false,
+              "collapsible": true,
+              "label": "💧 Osmosis",
+              "items": [
                 {
-                  "type": "category",
-                  "collapsed": true,
-                  "collapsible": true,
-                  "label": "networks",
-                  "items": [
-                    {
-                      "type": "doc",
-                      "id": "guides/chains/noble/networks/noble-1"
-                    }
-                  ]
+                  "type": "doc",
+                  "id": "guides/chains/osmosis/networks/osmosis-1"
                 }
               ]
             }

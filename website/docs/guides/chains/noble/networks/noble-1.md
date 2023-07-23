@@ -1,7 +1,7 @@
 ---
 id: noble-1
 title: noble-1
-sidebar_label: noble-1
+sidebar_label: 🔗 noble-1
 ---
 ## How to Participate  
 Noble is a permissioned network. Unlike permissionless Proof of Stake chains, the only way of participating in the Noble mainnet is through a delegation of staking tokens by the Noble Maintenance Multisig (NMM). 

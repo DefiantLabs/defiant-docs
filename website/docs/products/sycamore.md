@@ -1,7 +1,7 @@
 ---
 id: sycamore
 title:  Sycamore.
-sidebar_label: Sycamore
+sidebar_label: 🌳 Sycamore
 ---
 # 🌳 Sycamore Tax 🌳
 
