@@ -31,37 +31,49 @@
           "items": [
             {
               "type": "category",
-              "collapsed": false,
+              "collapsed": true,
               "collapsible": true,
               "label": "🛡️ Noble",
               "items": [
                 {
                   "type": "doc",
-                  "id": "guides/chains/noble/networks/noble-1"
+                  "id": "guides/chains/noble/noble-1"
                 }
               ]
             },
             {
               "type": "category",
-              "collapsed": false,
+              "collapsed": true,
               "collapsible": true,
               "label": "🉐 Kujira",
               "items": [
                 {
                   "type": "doc",
-                  "id": "guides/chains/kujira/networks/kaiyo-1"
+                  "id": "guides/chains/kujira/kaiyo-1"
                 }
               ]
             },
             {
               "type": "category",
-              "collapsed": false,
+              "collapsed": true,
               "collapsible": true,
               "label": "💧 Osmosis",
               "items": [
                 {
                   "type": "doc",
-                  "id": "guides/chains/osmosis/networks/osmosis-1"
+                  "id": "guides/chains/osmosis/osmosis-1"
+                }
+              ]
+            },
+            {
+              "type": "category",
+              "collapsed": true,
+              "collapsible": true,
+              "label": "🧔 Odin",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "guides/chains/odin/odin-mainnet-freya"
                 }
               ]
             }
