@@ -25,11 +25,13 @@
       "items": [
         {
           "type": "doc",
-          "id": "guides/cosmovisor"
+          "id": "guides/cosmovisor",
+          "className": "sidebar-label-Cosmovisor"
         },
         {
           "type": "doc",
-          "id": "guides/pruning"
+          "id": "guides/pruning",
+          "className": "sidebar-label-Pruning"
         },
         {
           "type": "category",

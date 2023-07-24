@@ -23,6 +23,21 @@
   color: #000000;
 }
 
+.sidebar-label-Pruning::before {
+  content: "✂️";
+  display: inline-block;
+  font-size: 16px;
+  color: #000000;
+}
+
+.sidebar-label-Cosmovisor::before {
+  content: "🔍";
+  display: inline-block;
+  font-size: 16px;
+  color: #000000;
+}
+
+
 .sidebar-label-Osmosis::before {
   background-image: url('https://altcoinsbox.com/wp-content/uploads/2023/03/osmosis-logo.svg');
 }
