@@ -66,7 +66,7 @@ seeds = "02e905f49e1b869f55ad010979931b542302a9e6@35.241.221.154:26656,1fbdc459f
 
 ### 📂 app.toml
 
-In your `app.toml` file, set the `minimum-gas-prices` to `"0.0uusdc"` as shown below:
+In your `app.toml` file, set the `minimum-gas-prices` to `"0.0125loki"` as shown below:
 
 ```toml
 minimum-gas-prices = "0.0125loki"
