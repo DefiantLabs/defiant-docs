@@ -35,12 +35,14 @@
           "type": "category",
           "collapsed": false,
           "collapsible": true,
+          "className": "sidebar-label-Chains",
           "label": "Chains",
           "items": [
             {
               "type": "category",
               "collapsed": true,
               "collapsible": true,
+              "className": "sidebar-label-Noble",
               "label": "Noble",
               "items": [
                 {
@@ -54,6 +56,7 @@
               "collapsed": true,
               "collapsible": true,
               "label": "Kujira",
+              "className": "sidebar-label-Kujira",
               "items": [
                 {
                   "type": "doc",
@@ -65,6 +68,7 @@
               "type": "category",
               "collapsed": true,
               "collapsible": true,
+              "className": "sidebar-label-Osmosis",
               "label": "Osmosis",
               "items": [
                 {
@@ -77,7 +81,8 @@
               "type": "category",
               "collapsed": true,
               "collapsible": true,
-              "label": "🧔 Odin",
+              "label": "Odin",
+              "className": "sidebar-label-Odin",
               "items": [
                 {
                   "type": "doc",
