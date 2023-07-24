@@ -12,6 +12,12 @@ module.exports = {
     },
     scripts: ['https://buttons.github.io/buttons.js'],
     themeConfig: {
+        scripts: [
+            {
+                src: '@site/src/js/custom.js',
+                async: true,
+            }
+        ],
         navbar: {
             title: "defiant Docs",
             logo: {

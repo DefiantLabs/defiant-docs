@@ -24,6 +24,14 @@
       "label": "Guides",
       "items": [
         {
+          "type": "doc",
+          "id": "guides/cosmovisor"
+        },
+        {
+          "type": "doc",
+          "id": "guides/pruning"
+        },
+        {
           "type": "category",
           "collapsed": false,
           "collapsible": true,
@@ -33,7 +41,7 @@
               "type": "category",
               "collapsed": true,
               "collapsible": true,
-              "label": "🛡️ Noble",
+              "label": "Noble",
               "items": [
                 {
                   "type": "doc",
@@ -45,7 +53,7 @@
               "type": "category",
               "collapsed": true,
               "collapsible": true,
-              "label": "🉐 Kujira",
+              "label": "Kujira",
               "items": [
                 {
                   "type": "doc",
@@ -57,7 +65,7 @@
               "type": "category",
               "collapsed": true,
               "collapsible": true,
-              "label": "💧 Osmosis",
+              "label": "Osmosis",
               "items": [
                 {
                   "type": "doc",
