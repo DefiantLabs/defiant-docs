@@ -2,7 +2,7 @@
 
 id: oracle
 title: oracle
-sidebar_label: oracle
+sidebar_label: 💹 oracle
 
 ---
 
