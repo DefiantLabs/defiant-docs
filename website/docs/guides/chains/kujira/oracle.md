@@ -29,10 +29,10 @@ make install
 
 ## 🚀 Configuring the Oracle 
 
-Update `config.toml`, and make sure to change the `history_db`, `fee_granter`, `address`, and `validator` as needed.
+Update `config.toml`, and make sure to change the `history_db`, `fee_granter`, `address`, `validator`, `keyring`, and `endpoints` as needed.
 
 ```yaml
-gas_adjustment = 1.7
+gas_adjustment = 1.2
 gas_prices = "0.00125ukuji"
 enable_server = true
 enable_voter = true
