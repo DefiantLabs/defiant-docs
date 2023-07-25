@@ -86,6 +86,13 @@ quote = "USDT"
 providers = ["gate", "huobi", "kucoin"]
 
 [[currency_pairs]]
+base = "AMPKUJI"
+quote = "KUJI"
+providers = ["finv2"]
+derivative = "twap"
+derivative_period = "30m"
+
+[[currency_pairs]]
 base = "ARB"
 quote = "USD"
 providers = ["bitfinex", "coinbase", "crypto", "kraken"]
@@ -439,6 +446,10 @@ base = "KUJI"
 threshold = "2"
 
 [[provider_min_overrides]]
+denoms = ["AMPKUJI"]
+providers = 1
+
+[[provider_min_overrides]]
 denoms = ["STATOM", "STOSMO", "MNTA", "WINK", "USK"]
 providers = 1
 
@@ -504,8 +515,8 @@ KUJIUSDC = "kujira14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9sl4e867"
 MNTAUSDC = "kujira1ws9w7wl68prspv3rut3plv8249rm0ea0kk335swye3sl2slld4lqdmc0lv"
 WINKUSK = "kujira1qxtd87qus6uzvqs4jv9r0j9ccd4yla42s6qag7y8fp7hhv68nzas6hqxgw"
 USDCUSK = "kujira1rwx6w02alc4kaz7xpyg3rlxpjl4g63x5jq292mkxgg65zqpn5llq202vh5"
+AMPKUJIKUJI = "kujira1lse59wt7a5yksdd08mennt299katjkfzdhmh8hvck8ln08jktcmsxrnh8s"
 
 [contract_addresses.uniswapv3]
 USDCWETH = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
 WSTETHWETH = "0x109830a1AAaD605BbF02a9dFA7B0B92EC2FB7dAa"
-```
