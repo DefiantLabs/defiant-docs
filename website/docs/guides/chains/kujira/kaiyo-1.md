@@ -7,12 +7,10 @@ sidebar_label: 🔗 kaiyo-1
 # Chain Information
 
 
-### 📚 Images
+### 📚 Code
 - **Docker**: [ghcr.io/defiantlabs/kujirad:v0.8.7](https://github.com/DefiantLabs/externalPackages/pkgs/container/kujirad)
 
-### 📚 Source Code
-
-- **URL**: [Team-Kujira/core](https://github.com/Team-Kujira/core)
+- **Source**: [Team-Kujira/core](https://github.com/Team-Kujira/core)
 
 ```bash
 # Clone the repository

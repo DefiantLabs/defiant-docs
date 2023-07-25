@@ -63,6 +63,10 @@
                 {
                   "type": "doc",
                   "id": "guides/chains/kujira/kaiyo-1"
+                },
+                {
+                  "type": "doc",
+                  "id": "guides/chains/kujira/oracle"
                 }
               ]
             },
