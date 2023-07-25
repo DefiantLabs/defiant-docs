@@ -32,12 +32,11 @@ kujirad --home ~/.kujira init defiantlabs
 
 Please substitute `<your_desired_version>` with the version of your choice from the [Binary Map](#-binary-map).
 
-For instance, if you'd like to switch to version `v3.0.0`, the checkout command would be `git checkout v3.0.0`.
+For instance, if you'd like to switch to version `v0.8.7`, the checkout command would be `git checkout v0.8.7`.
 
 ### 🌐 Binary Map 
 
 Here's a table summarizing the binary versions used in Kaiyo-1. 🚀
-Note: A Snapshot is needed if you start anywhere but block 1
 
 | Block Range  📦                                                    | Version 📔 |
 |------------------------------------------------------------|------------|
@@ -48,9 +47,16 @@ Note: A Snapshot is needed if you start anywhere but block 1
 | [9,226,201](https://finder.kujira.network/kaiyo-1/block/9226201) ➡️ [current](https://finder.kujira.network/kaiyo-1/block/)       | `v0.8.7` ➡️ [🔗](https://github.com/Team-Kujira/core/releases/tag/v0.8.7)   |
 
 ---
+
+### 💾 Snapshots
+
+Download snapshots from [polkachu](https://www.polkachu.com/tendermint_snapshots/kujira).  Place extracted snapshot in `~/.kujirad/data` before you start your node.
+
+---
+
 # 🚀 Node Configuration
 
-Use either the [Manuel Config](#-manual-config), or the [Script](#-script) below to configure your node.
+Use either the [Manual Config](#-manual-config), or the [Script](#-script) below to configure your node.
 
 ### 📂 Manual Config
 
