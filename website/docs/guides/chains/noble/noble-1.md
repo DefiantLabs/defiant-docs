@@ -3,40 +3,30 @@ id: noble-1
 title: noble-1
 sidebar_label: 🔗 noble-1
 ---
-## How to Participate  
-Noble is a permissioned network. Unlike permissionless Proof of Stake chains, the only way of participating in the Noble mainnet is through a delegation of staking tokens by the Noble Maintenance Multisig (NMM). 
+# Chain Information
 
-Noble is currently capped for participation and chose validators based on number of factors including 
-- Running validator on Cosmos Hub 
-- Geographic distribution of nodes 
-- Community contributions (educational content, events/marketing presence, etc) 
-- Infrastructure development (block explorers, wallets, core Cosmos stack development, testing, etc) 
-- Significant ATOM stake (1%+ voting power)
+### 📚 Code
+- **Docker**: [ghcr.io/strangelove-ventures/heighliner/noble:v3.0.0](https://github.com/strangelove-ventures/heighliner/pkgs/container/heighliner%2Fnoble/106083877?tag=v3.0.0)
 
-
-## Chain Info
-
-### 📚 Source Code
-
-To clone the source code, switch to your desired version and follow the steps below:
+- **Source**: [strangelove-ventures/noble](https://github.com/strangelove-ventures/noble)
 
 ```bash
 # Clone the repository
-git clone git@github.com:strangelove-ventures/noble.git
+git clone https://github.com/strangelove-ventures/noble.git
 
 # Navigate into the directory
 cd noble
 
-# Switch to your desired version (Check 'Binary Map' for versions)
+# Switch to your desired version (Refer 'Binary Map' for versions)
 git checkout <your_desired_version>
 
 # Install the dependencies
 make install
+
+# Init
+nobled --home ~/.noble init defiantlabs
+
 ```
-
-Please replace `<your_desired_version>` with the version you've chosen from the [Binary Map](#-binary-map).
-
-For example, if you wanted to checkout to version `v3.0.0`, the checkout command would be `git checkout v3.0.0`.
 
 ### 🌐 Binary Map 
 
@@ -49,41 +39,59 @@ Here's an overview of all the binary versions utilized on noble-1. 🚀
 | [1,296,001](https://www.mintscan.io/noble/blocks/1296001) ➡️ [Current](https://www.mintscan.io/noble/blocks)       | `v3.0.0` ➡️ [🔗](https://github.com/strangelove-ventures/noble/releases/tag/v3.0.0)   |
 
 ---
-# 🚀 Setup Configuration
 
-To configure your setup correctly, you will need to update the following files:
+### 💾 Snapshots
 
-### 📂 Genesis
+Download snapshots from [polkachu](https://www.polkachu.com/tendermint_snapshots/noble).  Place extracted snapshot in `~/.nobled/data` before you start your node.
 
-Grab the genesis file from the URL provided below:
+---
 
-🔗 [genesis.json](https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/testnet/noble-1/genesis.json)
+# 🚀 Node Configuration
 
-### 📂 client.toml
+Use either the [Manual Config](#-manual-config), or the [Script](#-script) below to configure your node.
 
-Update the `chain-id` in your `client.toml` file as follows:
+### 📂 Manual Config
 
-```toml
-chain-id = "noble-1"
+1️⃣ Download [genesis.json](https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/testnet/noble-1/genesis.json) to `~/.nobled/config`.
+
+2️⃣ Modify the `chain-id` in your `client.toml`
+
+```text
+noble-1
 ```
 
-### 📂 config.toml
+3️⃣ Update the `seeds` in your `config.toml`
 
-Update the `persistent_peers` in your `config.toml` file with the following peers:
-
-```toml
-persistent_peers = "38179b18853d6a8cb86b99881e02cf72f18b9d0f@34.127.46.223:26656,57546d799a1cdef74b9a174052821a6e93636dfc@34.145.87.4:26656,6b76ad22a73897e3c39c7d87b7d12a3b7d690bff@34.168.48.128:26656"
+```text
+seeds = "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:21556"
 ```
 
-### 📂 app.toml
+4️⃣ Set `minimum-gas-prices` in `app.toml`
 
-In your `app.toml` file, set the `minimum-gas-prices` to `"0.0uusdc"` as shown below:
-
-```toml
-minimum-gas-prices = "0.0uusdc"
+```text
+0.0uusdc
 ```
 
-Now, you are ready to roll! 🎉
+### 🔧 Script
+```shell
+#!/bin/bash
+
+# Download genesis.json
+GENESIS_URL="https://raw.githubusercontent.com/strangelove-ventures/noble-networks/main/testnet/noble-1/genesis.json"
+curl -s "$GENESIS_URL" > ~/.nobled/config/genesis.json
+
+# Modify chain-id
+sed -i 's/chain-id = ".*"/chain-id = "noble-1"/' ~/.nobled/config/client.toml
+
+# Modify seeds
+SEEDS="ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:21556"
+sed -i "s/seeds = \".*\"/seeds = \"$SEEDS\"/" ~/.nobled/config/config.toml
+
+# Modify minimum-gas-prices
+GAS="0.0uusdc"
+sed -i "s/seeds = \".*\"/seeds = \"$GAS\"/" ~/.nobled/config/config.toml
+
+```
 
 ---
 
@@ -100,3 +108,7 @@ Now, you are ready to roll! 🎉
 ### 💻 **API**
 
 🔗 [**https://api.mainnet.noble.strange.love**](https://api.mainnet.noble.strange.love:443)
+
+### 🗂️ **Chain Registry**
+
+🔗 [**https://github.com/cosmos/chain-registry/tree/master/noble**](https://github.com/cosmos/chain-registry/tree/master/noble:443)

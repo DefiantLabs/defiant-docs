@@ -16,7 +16,7 @@ sidebar_label: 🔗 osmosis-1
 git clone https://github.com/osmosis-labs/osmosis.git
 
 # Navigate into the directory
-cd kujira
+cd osmosis
 
 # Switch to your desired version (Refer 'Binary Map' for versions)
 git checkout <your_desired_version>
@@ -25,7 +25,7 @@ git checkout <your_desired_version>
 make install
 
 # Init
-kujirad --home ~/.kujira init defiantlabs
+osmosisd --home ~/.osmosisd init defiantlabs
 
 ```
 
@@ -83,7 +83,7 @@ curl -s "$GENESIS_URL" > ~/.osmosisd/config/genesis.json
 sed -i 's/chain-id = ".*"/chain-id = "osmosis-1"/' ~/.osmosisd/config/client.toml
 
 # Modify seeds
-SEEDS="seeds = "20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:12556,3cc024d1c760c9cd96e6413abaf3b36a8bdca58e@seeds.goldenratiostaking.net:1630,4dac1272a42e6b9e3ae3766304e12f1cb09ecbf0@osmosis-seed.panthea.eu:40656,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:12556,ebc272824924ea1a27ea3183dd0b9ba713494f83@osmosis-mainnet-seed.autostake.com:26716,f515a8599b40f0e84dfad935ba414674ab11a668@osmosis.blockpane.com:26656""
+SEEDS="20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:12556,3cc024d1c760c9cd96e6413abaf3b36a8bdca58e@seeds.goldenratiostaking.net:1630,4dac1272a42e6b9e3ae3766304e12f1cb09ecbf0@osmosis-seed.panthea.eu:40656,ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:12556,ebc272824924ea1a27ea3183dd0b9ba713494f83@osmosis-mainnet-seed.autostake.com:26716,f515a8599b40f0e84dfad935ba414674ab11a668@osmosis.blockpane.com:26656"
 sed -i "s/seeds = \".*\"/seeds = \"$SEEDS\"/" ~/.osmosisd/config/config.toml
 
 # Modify minimum-gas-prices
