@@ -8,20 +8,11 @@ sidebar_label: Pruning
 
 # Pruning Configurations on Cosmos
 
-During countless dialogues with POS validators and the maestros of chain development, we've gained a profound comprehension of pruning configurations within the realm of Cosmos. This literary piece strives to present a thorough manual to Cosmos node operators, illuminating the inner workings of pruning and exemplifying configurations they could adopt to prune or abstain from pruning their nodes.
-
-## 📚 Pruning - A Grand Overview
-
-Pruning in the vast Cosmos can transpire at two distinct echelons:
-
-1️⃣ Cache Pruning
-2️⃣ DB (on-disk) Pruning
-
-Our enlightening discoveries are founded on our collaborative work with @osmosiszone and @akashnet_. Here, we extend our gratitude to @valardragon and @abozanich for their unwavering support. 
-
+## 📚 Pruning Overview
+Sourced from [ValNodes](https://twitter.com/valnodes/status/1508527814316011520?s=20&t=oLJ7e1ITWu_PxRI1LmTNKQ)
 ### IAVL Pruning: Cache Pruning 🌱
 
-IAVL trees, shrouded in the cache, are regulated by pruning configurations residing in your `app.toml`. These configurations zone in exclusively on cache and abstain from affecting any data stowed away in the DB on the disk.
+IAVL trees, in the cache, are regulated by pruning configurations residing in your `app.toml`. This configuration focuses exclusively on cache and dos not impact disk space.
 
 - If the `pruning="default"`, the node conserves 100,000 blocks in the IAVL tree (cache). For instance, 100,000 blocks on @osmosiszone encapsulates around 7.5 days of data, and 3 days for @BandProtocol.
 - When `pruning = "everything"`, the node eliminates everything from the cache at an interval of 10 blocks.
@@ -48,3 +39,31 @@ Three configurations determine what must be eliminated at the termination of eac
 The chain will discard everything below the lesser value of (max age block defined in genesis.json, current commit height - minimum retain height defined in app.toml).
 
 No validator can override configurations to delete data within the bonding period. Even though the aforementioned configurations facilitate logical or soft deletions, the actual physical deletions from the disk are propelled by DB Configuration and Compaction.
+
+### Common pruning configurations
+
+#### Archive Node
+This will keep everything.
+```
+pruning = "nothing"
+min-retain-blocks = 0
+```
+
+#### RPC/API Node
+This will keep enough recent blocks to serve common RPC/API requests.
+
+```
+pruning = "custom"
+pruning-keep-recent = "50000"
+pruning-interval = "997"
+min-retain-blocks = "50000"
+```
+
+#### Validator Node
+This will keep a small amount of blocks, without tieing up your node with frequent pruning, which can cause misses.
+```
+pruning = "custom"
+pruning-keep-recent = "10000"
+pruning-interval = "997"
+min-retain-blocks = "10000"
+```
