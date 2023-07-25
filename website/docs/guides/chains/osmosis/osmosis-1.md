@@ -35,17 +35,17 @@ Here's a table summarizing the binary versions used in osmosis-1. 🚀
 
 | Block Range  📦                                                    | Version 📔 |
 |------------------------------------------------------------|------------|
-| [1](https://www.mintscan.io/osmosis/blocks/1) ➡️ [1314500](https://www.mintscan.io/osmosis/blocks/1)       | `v3.1.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v3.1.0)   |
-| [1314501](https://www.mintscan.io/osmosis/blocks/1314501) ➡️ [2383300](https://www.mintscan.io/osmosis/blocks/2383300)       | `v4.2.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v4.2.0)   |
-| [2383301](https://www.mintscan.io/osmosis/blocks/2383301) ➡️ [3401000](https://www.mintscan.io/osmosis/blocks/3401000)       | `v6.4.1` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v6.4.1)   |
-| [3401001](https://www.mintscan.io/osmosis/blocks/3401001) ➡️ [4707300](https://www.mintscan.io/osmosis/blocks/4707300)       | `v8.0.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v8.0.0)   |
-| [4707301](https://www.mintscan.io/osmosis/blocks/4707301) ➡️ [5432450](https://www.mintscan.io/osmosis/blocks/5432450)       | `v10.0.1` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v10.0.1)   |
-| [5432451](https://www.mintscan.io/osmosis/blocks/5432451) ➡️ [6246000](https://www.mintscan.io/osmosis/blocks/6246000)       | `v11.0.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v11.0.0)   |
-| [6246001](https://www.mintscan.io/osmosis/blocks/6246001) ➡️ [7241500](https://www.mintscan.io/osmosis/blocks/7241500)       | `v12.3.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v12.3.0)   |
-| [7241501](https://www.mintscan.io/osmosis/blocks/7241501) ➡️ [7937500](https://www.mintscan.io/osmosis/blocks/7937500)       | `v13.1.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v13.1.0)   |
-| [7937501](https://www.mintscan.io/osmosis/blocks/7937501) ➡️ [8732500](https://www.mintscan.io/osmosis/blocks/8732500)       | `v14.0.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v14.0.0)   |
-| [8732501](https://www.mintscan.io/osmosis/blocks/8732501) ➡️ [2383300](https://www.mintscan.io/osmosis/blocks/10517000)       | `v15.2.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v15.2.0)   |
-| [10517001](https://www.mintscan.io/osmosis/blocks/8732501) ➡️ [current](https://www.mintscan.io/osmosis/blocks/current)       | `v16.1.0` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v16.1.0)   |
+| [1](https://www.mintscan.io/osmosis/blocks/1)              ➡️ [1314500](https://www.mintscan.io/osmosis/blocks/1)              | `v3` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v3.1.0)     |
+| [1314501](https://www.mintscan.io/osmosis/blocks/1314501)  ➡️ [2383300](https://www.mintscan.io/osmosis/blocks/2383300)        | `v4` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v4.2.0)     |
+| [2383301](https://www.mintscan.io/osmosis/blocks/2383301)  ➡️ [3401000](https://www.mintscan.io/osmosis/blocks/3401000)        | `v5` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v6.4.1)     |
+| [3401001](https://www.mintscan.io/osmosis/blocks/3401001)  ➡️ [4707300](https://www.mintscan.io/osmosis/blocks/4707300)        | `v7` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v8.0.0)     |
+| [4707301](https://www.mintscan.io/osmosis/blocks/4707301)  ➡️ [5432450](https://www.mintscan.io/osmosis/blocks/5432450)        | `v9` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v10.0.1)    |
+| [5432451](https://www.mintscan.io/osmosis/blocks/5432451)  ➡️ [6246000](https://www.mintscan.io/osmosis/blocks/6246000)        | `v11` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v11.0.0)   |
+| [6246001](https://www.mintscan.io/osmosis/blocks/6246001)  ➡️ [7241500](https://www.mintscan.io/osmosis/blocks/7241500)        | `v12` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v12.3.0)   |
+| [7241501](https://www.mintscan.io/osmosis/blocks/7241501)  ➡️ [7937500](https://www.mintscan.io/osmosis/blocks/7937500)        | `v13` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v13.1.0)   |
+| [7937501](https://www.mintscan.io/osmosis/blocks/7937501)  ➡️ [8732500](https://www.mintscan.io/osmosis/blocks/8732500)        | `v14` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v14.0.0)   |
+| [8732501](https://www.mintscan.io/osmosis/blocks/8732501)  ➡️ [2383300](https://www.mintscan.io/osmosis/blocks/10517000)       | `v15` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v15.2.0)   |
+| [10517001](https://www.mintscan.io/osmosis/blocks/8732501) ➡️ [current](https://www.mintscan.io/osmosis/blocks/current)        | `v16` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v16.1.0)   |
 
 ---
 
