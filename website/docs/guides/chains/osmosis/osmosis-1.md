@@ -31,7 +31,8 @@ osmosisd --home ~/.osmosisd init defiantlabs
 
 ### 🌐 Binary Map 
 
-Here's a table summarizing the binary versions used in osmosis-1. 🚀
+Here's a table summarizing the binary versions used in osmosis-1.🚀  
+Some of the version names do not [match](https://github.com/cosmos/chain-registry/blob/master/osmosis/chain.json#L66-L130) the tags. 
 
 | Block Range  📦                                                    | Version 📔 |
 |------------------------------------------------------------|------------|
