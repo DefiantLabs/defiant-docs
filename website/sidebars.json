@@ -93,6 +93,10 @@
                 {
                   "type": "doc",
                   "id": "guides/chains/odin/odin-mainnet-freya"
+                },
+                {
+                  "type": "doc",
+                  "id": "guides/chains/odin/yoda"
                 }
               ]
             }
