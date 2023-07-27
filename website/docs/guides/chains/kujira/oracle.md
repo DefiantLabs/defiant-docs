@@ -45,10 +45,6 @@ read_timeout = "30s"
 verbose_cors = true
 write_timeout = "30s"
 
-[[deviation_thresholds]]
-base = "USDT"
-threshold = "2"
-
 [account]
 fee_granter = "kujira1vkje22mayn72r0a7kna6agv0sqm6k94ry9k6dd"
 address = "kujira1rfwcxn23s8smxkuq82n6p0fvsgd0qkrxzs382n"
