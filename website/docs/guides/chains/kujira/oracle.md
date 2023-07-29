@@ -479,7 +479,7 @@ urls = [
 [[provider_endpoints]]
 name = "osmosis"
 urls = [
-  "https://kujira-api.polkachu.com",
+  "https://api.osmosis.zone",
   "https://api-osmosis.imperator.co",
 ]
 
