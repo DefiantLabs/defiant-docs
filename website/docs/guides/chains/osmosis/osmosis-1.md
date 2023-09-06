@@ -8,7 +8,7 @@ sidebar_label: 🔗 osmosis-1
 
 ### 📚 Code
 
-- **Docker**: [ghcr.io/defiantlabs/osmosisd:v16.1.0](https://github.com/DefiantLabs/externalPackages/pkgs/container/osmosisd/110595350?tag=v16.1.0)
+- **Docker**: [ghcr.io/defiantlabs/osmosisd:v19.0.0](https://github.com/DefiantLabs/externalPackages/pkgs/container/osmosisd/125057065?tag=v19.0.0)
 
 - **Source**: [osmosis-labs/osmosis](https://github.com/osmosis-labs/osmosis)
 
@@ -49,7 +49,8 @@ Some of the version names do not [match](https://github.com/cosmos/chain-registr
 | [8732501](https://www.mintscan.io/osmosis/blocks/8732501) ➡️ [2383300](https://www.mintscan.io/osmosis/blocks/10517000)    | `v15` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v15.2.0) |
 | [10517001](https://www.mintscan.io/osmosis/blocks/10517001) ➡️ [11126099](https://www.mintscan.io/osmosis/blocks/11126099) | `v16` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v16.1.0) |
 | [11126100](https://www.mintscan.io/osmosis/blocks/11126100) ➡️ [11155349](https://www.mintscan.io/osmosis/blocks/11155349) | `v17` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v17.0.0) |
-| [11155350](https://www.mintscan.io/osmosis/blocks/11155350) ➡️ [current](https://www.mintscan.io/osmosis/blocks/current)   | `v18` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v18.0.0) |
+| [11155350](https://www.mintscan.io/osmosis/blocks/11155350) ➡️ [11317300](https://www.mintscan.io/osmosis/blocks/11317300)   | `v18` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v18.0.0) |
+| [11317301](https://www.mintscan.io/osmosis/blocks/11317301) ➡️ [current](https://www.mintscan.io/osmosis/blocks/current)   | `v19` ➡️ [🔗](https://github.com/osmosis-labs/osmosis/releases/tag/v19.0.0) |
 
 ---
 
