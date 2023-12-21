@@ -17,8 +17,6 @@ ssh-keygen -t rsa -b 4096 -C "OsmosisArbitrageBot@defiantlabs.net" -q -N "" -f O
 
 For each private repo, add the deploy keys public keypair.  
 
-![Deploy Key](deploy_key.png)
-
 ## 2.) Create SSH Aliases for all github private repos.
 `~/.ssh/config`
 ```
